@@ -1,0 +1,13 @@
+alias lsa='ls -lah'
+alias l='ls -la'
+alias ll='ls -l'
+alias la='ls -a'
+
+alias glp='git log --color --graph --pretty=format:'\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold yellow)<%an>%Creset'\'' --abbrev-commit --'
+alias gs='git status'
+alias gd='git diff'
+alias gps='git push'
+alias gpl='git pull'
+
+alias vim='nocorrect vim'
+alias aptitude='nocorrect aptitude'
