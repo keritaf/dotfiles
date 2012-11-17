@@ -69,5 +69,9 @@ colorscheme mustang
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeMinimalUI = 1
 map <Leader>n :NERDTreeToggle<CR>
+autocmd vimenter * if !argc() | NERDTree | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
+" Plugin: PowerLine
+let g:Powerline_symbols = 'fancy'
 filetype plugin indent on
