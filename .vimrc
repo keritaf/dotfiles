@@ -75,3 +75,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 " Plugin: PowerLine
 let g:Powerline_symbols = 'fancy'
 filetype plugin indent on
+
+" Enable Omnicomplete
+set ofu=syntaxcomplete#Complete
