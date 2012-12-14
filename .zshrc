@@ -7,7 +7,7 @@ setopt correct
 
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git git-flow debian rvm npm)
+plugins=(gitfast git-flow debian rvm npm sublime)
 
 source $ZSH/oh-my-zsh.sh
 
