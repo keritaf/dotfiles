@@ -36,10 +36,11 @@ set tabstop=2
 set shiftwidth=2
 set expandtab
 set secure  " Allow to write files without permissions?
+
 set smartindent
-set tabstop=2
-set shiftwidth=2
-set expandtab
+set autoindent
+set cindent
+
 set history=1000
 au FocusLost * :wa " Autosave everything
 set autowriteall
