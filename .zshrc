@@ -7,7 +7,7 @@ setopt correct
 
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(gitfast git-flow debian rvm npm sublime command-not-found per-directory-history)
+plugins=(gitfast git-flow debian rvm npm sublime command-not-found)
 
 source $ZSH/oh-my-zsh.sh
 
