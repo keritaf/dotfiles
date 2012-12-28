@@ -100,6 +100,10 @@ map <C-h> <C-w>h
 map <C-j> <C-w>j
 map <C-k> <C-w>k
 map <C-l> <C-w>l
+map <C-left> <C-w>h
+map <C-right> <C-w>l
+map <C-up> <C-w>k
+map <C-down> <C-w>j
 
 " Use w!! to write file with forgotten sudo
 cmap w!! w !sudo tee % >/dev/null
