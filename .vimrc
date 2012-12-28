@@ -15,6 +15,9 @@ Bundle 'torandu/vim-bufexplorer'
 Bundle 'taglist.vim'
 Bundle 'c.vim'
 Bundle 'a.vim'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'guileen/vim-node'
+Bundle 'myhere/vim-nodejs-complete'
 
 " Color themes
 Bundle 'altercation/vim-colors-solarized'
