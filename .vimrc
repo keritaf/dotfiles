@@ -83,7 +83,7 @@ set listchars=tab:>.,trail:.,extends:#,nbsp:.
 autocmd filetype html,xml set listchars-=tab:>.
 
 set pastetoggle=<F2>  " Toggel paste mode - usually Vim takes paste as very fast typing =)
-nnoremap ; :      " -1 to command keystrokes
+nnoremap ; :
 let mapleader=","    " Remap \ leader key to ,
 
 " Switch Vim regex to normal regex
