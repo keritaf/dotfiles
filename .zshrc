@@ -7,7 +7,7 @@ setopt correct
 
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(gitfast git-flow debian rvm npm sublime command-not-found)
+plugins=(gitfast git-flow debian rvm npm sublime command-not-found rake gem bundle)
 
 source $ZSH/oh-my-zsh.sh
 
