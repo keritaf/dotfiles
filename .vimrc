@@ -60,7 +60,6 @@ set autowriteall
 
 set mouse=a       "Enable mouse
 set number        " Show line numbers
-set relativenumber    " Show line numbers relative to current line
 set laststatus=2      " Show the status line all the time
 set showtabline=2     " Show tabs bar
 set incsearch       " Highlight matches as you type
