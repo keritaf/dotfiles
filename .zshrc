@@ -4,7 +4,7 @@ ZSH_THEME="agnoster"
 
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(gitfast git-flow debian rvm npm sublime command-not-found rake gem bundle)
+plugins=(gitfast git-flow rvm npm command-not-found rake gem bundle)
 
 source $ZSH/oh-my-zsh.sh
 unsetopt correct_all
