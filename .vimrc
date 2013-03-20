@@ -19,6 +19,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'guileen/vim-node'
 Bundle 'myhere/vim-nodejs-complete'
 Bundle 'slim-template/vim-slim'
+Bundle 'fsouza/go.vim'
 
 " Color themes
 Bundle 'altercation/vim-colors-solarized'
