@@ -1,0 +1,10 @@
+[color]
+	ui = true
+[user]
+	name = Igor Antonov
+	email = keritaf@gmail.com
+	signingkey = 95194DB7
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all --
+[core]
+	editor = vim
