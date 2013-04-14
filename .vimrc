@@ -9,21 +9,25 @@ Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
 Bundle 'msanders/snipmate.vim'
 Bundle 'tpope/vim-fugitive'
+Bundle 'tpope/vim-abolish'
+Bundle 'tpope/vim-surround'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'vim-scripts/tComment'
-Bundle 'torandu/vim-bufexplorer'
-Bundle 'taglist.vim'
 Bundle 'c.vim'
-Bundle 'a.vim'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'guileen/vim-node'
 Bundle 'myhere/vim-nodejs-complete'
 Bundle 'slim-template/vim-slim'
 Bundle 'fsouza/go.vim'
+Bundle 'kien/ctrlp.vim'
+
+"Haskell bundles
+Bundle 'Shougo/vimproc'
+Bundle 'eagletmt/ghcmod-vim'
+Bundle 'ujihisa/neco-ghc'
 
 " Color themes
 Bundle 'altercation/vim-colors-solarized'
-Bundle 'tomasr/molokai'
 Bundle 'croaker/mustang-vim'
 
 " General settings
