@@ -6,10 +6,10 @@ COMPLETION_WAITING_DOTS="true"
 
 plugins=(gitfast git-flow rvm npm command-not-found rake gem bundle dircycle)
 
-source $ZSH/oh-my-zsh.sh
+source "$ZSH/oh-my-zsh.sh"
 
-export PATH=/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
+export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 
-source $HOME/.zsh-aliases
-source $HOME/.zsh-local
+[[ -f "$HOME/.zsh-aliases" ]] && source "$HOME/.zsh-aliases"
+[[ -f "$HOME/.zsh-local" ]] && source "$HOME/.zsh-local"
 
