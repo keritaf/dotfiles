@@ -14,5 +14,3 @@ export PATH=$PATH:/usr/lib/lightdm/lightdm:/usr/local/sbin:/usr/local/bin:/usr/s
 [[ -f "$HOME/.zsh-local" ]] && source "$HOME/.zsh-local"
 
 
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
