@@ -12,4 +12,3 @@ alias gpl='git pull'
 alias vim='nocorrect vim'
 alias aptitude='nocorrect aptitude'
 
-alias vless='vim -u /usr/share/vim/vimcurrent/macros/less.vim'
