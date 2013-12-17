@@ -4,7 +4,7 @@ ZSH_THEME="ys"
 
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(gitfast git-flow rvm npm command-not-found rake gem bundle dircycle)
+plugins=(gitfast git-flow rvm npm command-not-found rake gem bundle dircycle rsync)
 
 source "$ZSH/oh-my-zsh.sh"
 
