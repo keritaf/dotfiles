@@ -20,7 +20,6 @@ Bundle 'myhere/vim-nodejs-complete'
 Bundle 'slim-template/vim-slim'
 Bundle 'fsouza/go.vim'
 Bundle 'kien/ctrlp.vim'
-Bundle 'FredKSchott/CoVim'
 Bundle 'plasticboy/vim-markdown'
 
 "Haskell bundles
