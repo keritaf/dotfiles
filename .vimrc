@@ -1,35 +1,37 @@
 set nocompatible
 filetype off
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim/
+call vundle#begin()
 
-Bundle 'gmarik/vundle'
+Plugin 'VundleVim/Vundle.vim'
 
 " Plugins
-Bundle 'scrooloose/nerdtree'
-Bundle 'msanders/snipmate.vim'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-abolish'
-Bundle 'tpope/vim-surround'
-Bundle 'Lokaltog/vim-powerline'
-Bundle 'vim-scripts/tComment'
-Bundle 'c.vim'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'guileen/vim-node'
-Bundle 'myhere/vim-nodejs-complete'
-Bundle 'slim-template/vim-slim'
-Bundle 'fsouza/go.vim'
-Bundle 'kien/ctrlp.vim'
-Bundle 'plasticboy/vim-markdown'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-abolish'
+Plugin 'tpope/vim-surround'
+Plugin 'bling/vim-airline'
+Plugin 'vim-scripts/tComment'
+Plugin 'c.vim'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'guileen/vim-node'
+Plugin 'myhere/vim-nodejs-complete'
+Plugin 'slim-template/vim-slim'
+Plugin 'fsouza/go.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'airblade/vim-gitgutter'
 
 "Haskell bundles
-Bundle 'Shougo/vimproc'
-Bundle 'eagletmt/ghcmod-vim'
-Bundle 'ujihisa/neco-ghc'
+Plugin 'Shougo/vimproc'
+Plugin 'eagletmt/ghcmod-vim'
+Plugin 'ujihisa/neco-ghc'
 
 " Color themes
-Bundle 'altercation/vim-colors-solarized'
-Bundle 'croaker/mustang-vim'
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'croaker/mustang-vim'
+
+call vundle#end()
 
 " General settings
 syntax enable                     " Turn on syntax highlighting.
