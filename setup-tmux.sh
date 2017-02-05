@@ -1,4 +1,4 @@
 #!/bin/sh
 
-ln -nfs "`pwd`/tmux.conf" ~/tmux.conf
+ln -nfs "`pwd`/.tmux.conf" ~/.tmux.conf
 
