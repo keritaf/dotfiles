@@ -1,8 +1,8 @@
 ZSH=$HOME/.oh-my-zsh
 
-#ZSH_THEME="ys"
+ZSH_THEME="ys"
 #ZSH_THEME="amuse"
-ZSH_THEME="af-magic"
+#ZSH_THEME="af-magic"
 
 CASE_SENSITIVE="false"
 
